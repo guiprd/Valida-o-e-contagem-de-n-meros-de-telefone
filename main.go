@@ -1,9 +1,9 @@
 package main
 
 import (
+	"Validacao-e-contagem-de-numeros-de-telefone/validation"
 	"bufio"
 	"fmt"
-	"github.com/guiprd/Validacao-e-contagem-de-numeros-de-telefone/validation"
 	"os"
 )
 

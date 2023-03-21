@@ -17,9 +17,15 @@ func TestValidation(t *testing.T) {
 		{
 			name: "Right phone numbers with +",
 			args: args{
-				phones: []string{"+19992676547"},
+				phones: []string{
+					"+19992676547",
+					"+01928745674",
+				},
 			},
-			want: []bool{true},
+			want: []bool{
+				true,
+				false,
+			},
 		},
 	}
 	for _, tt := range tests {
