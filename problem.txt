@@ -1,0 +1,12 @@
+Dado um arquivo com códigos de área válidos e um segunno arquivo com números de telefones, imprima a quantidade de telefones válidos por código de área
+
+A partir do segundo arquivo, um número dde telefone é válido se ele respeitar as seguintes regras:
+
+1) tem exatamente 3 dígitos ou tem entre 7 e 12 dígitos (inclusive)
+2) Pode ter um caractere opcional "+" no começo, antes de qualquer número
+3) pode começar com 00, caso não comece com o sinal "+"
+4) se começar com 00, esses dois ddígitos não contam no númeiro máximo de dígitos
+5) não pode haver letras
+OK 6) não pode haver símbolos além do "+"
+7) não pode haver espaço entre "+" e o primeiro dígito, mas pode ter qualquer quantidade de espaço
+
